@@ -1,1 +1,12 @@
 # See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+Remove-ClusterNode
+      [[-Name] <StringCollection>]
+      [-Force]
+      [-Wait <Int32>]
+      [-IgnoreStorageConnectivityLoss]
+      [-CleanupDisks]
+      [-InputObject <PSObject>]
+      [-Cluster <String>]
+      [-WhatIf]
+      [-Confirm]
+      [<CommonParameters>]
